@@ -1,0 +1,36 @@
+name: cremosos_ecommerce
+description: Sistema de gestión de estados para e-commerce especializado en arroz con leche y fresas con cremas
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gestión de estado
+  flutter_riverpod: ^2.4.0
+
+  # Persistencia de datos
+  shared_preferences: ^2.2.2
+
+  # Navegación
+  go_router: ^12.1.1
+
+  # UI y diseño
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+
+  # Utilidades
+  intl: ^0.18.1
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
